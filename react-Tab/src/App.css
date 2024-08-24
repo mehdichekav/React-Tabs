@@ -1,20 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sedan:ital@0;1&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #0761f1;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
     
 }
 
 html {
     font-size: 25px;
 }
-
-/* body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 
 .bloc-tabs {

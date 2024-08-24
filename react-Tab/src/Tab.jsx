@@ -8,17 +8,25 @@ function Tab() {
     setToggleState(index);
   };
 
+//   const saveTab = () => {
+//     if (localStorage.getItem('tabs') !== null) {
+//        document.getElementById(localStorage.getItem('tabs')).show();
+//     }
+//  }
+
   return (
     <>
     <h4>Tabs Component with React</h4>
     <div className="container">
       <div className="bloc-tabs">
         <div
-          className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
+          className={toggleState === 1 ?  "tabs active-tabs " : "tabs"}
           onClick={() => toggleTab(1)}
         >
           Tab 1
+          
         </div>
+        
         <div
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
